@@ -8,3 +8,10 @@
 # line 75 of HiFi.conf controls this volume
 
 sudo cp -r chtmax98090/ /usr/share/alsa/ucm/
+
+
+# update to latest kernel, hopefully this fixes more than it breaks
+# seems to help with sound issuses for now
+
+./ubuntu-mainline-kernel.sh -i
+
