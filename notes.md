@@ -1,7 +1,6 @@
-# toshiba-swanky
-Getting linux happy on a TOSHIBA CB30-B-13
+## Please see [readme](https://github.com/xriss/toshiba-swanky/blob/master/readme.md) for instructions
 
-Notes:
+Notes for getting linux happy on a TOSHIBA CB30-B-13
 
 install developer mode and then RM_LEGACY so we can boot from USB
 
