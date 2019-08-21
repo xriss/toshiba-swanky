@@ -23,7 +23,8 @@ Remember the following keys to boot from USB
 	2
 
 
-boot into this new install ( CTRL+L ) at chrome bios and we can patch problems with
+boot into this new install ( CTRL+L ) at chrome bios and we can patch 
+problems with
 
 
 	sudo apt -y install git
@@ -34,5 +35,6 @@ boot into this new install ( CTRL+L ) at chrome bios and we can patch problems w
 	./00-all.sh
 
 
-reboot and all is good...
+it will ask for sudo password to perform the magic then reboot and all 
+is good...
 
