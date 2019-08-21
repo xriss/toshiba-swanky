@@ -19,6 +19,7 @@ From https://mrchromebox.tech/#fwscript
 - Press **ctrl**, **alt** and **t** to load the terminal  
 - Type ```shell``` and press **enter**
 - Copy and paste the following to avoid typos - *the 2nd curl parameter is a capital O, not a zero*
+    - Click the touchpad with two fingers to open the right-click menu
 ```
 cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh
 ```
