@@ -7,7 +7,7 @@ This has only been tested on the 2014 Toshiba Skullcandy.
 - Press the **esc**, **refresh (circular arrow)** and **power** buttons at the same time  
 - Wait until you see *Chrome OS is missing or damaged. Please insert USB stick.*  
 - Press **ctrl** and **d**  
-- Press **Enter** when the screen tells you to
+- Press **enter** when the screen tells you to
 - The chromebook will now restart and you will be in developer mode  
 - Press **ctrl** and **d**
 - Click on **Browse as Guest**
@@ -24,6 +24,11 @@ From https://mrchromebox.tech/#fwscript
 cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh
 ```
 - Press **enter**
+- Type **1** and press **enter**
+- Press **enter** again to start installing RM_LEGACY firmware
+- The chromebook will chug away for a while, make yourself a cup of tea
+- Once the firmware is successfully installed, press **enter** when prompted
+- Type **r** and press **enter** to Reboot your chromebook
 
 
 If you take the laptop apart and remove the restraining bolt it is nicer 
