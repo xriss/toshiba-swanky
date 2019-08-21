@@ -20,7 +20,7 @@ sound is borked (thanks intel)
 	sudo alsaucm -c chtmax98090 set _verb HiFi set _enadev Speakers
 	sudo alsactl store
 
-Select the second card first
+We wat to defalut to the second card (first card is hdmi out) so...
 
 	sudo nano /etc/asound.conf
 
