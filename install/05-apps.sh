@@ -10,6 +10,7 @@ sudo apt -y install wine
 
 
 #art tools
+sudo apt -y purge gimp
 sudo snap install gimp
 sudo snap install inkscape
 sudo snap install blender --classic
