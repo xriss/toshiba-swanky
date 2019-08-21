@@ -1,23 +1,25 @@
 
+# install heavy applications that we often use
+# using snap is prefered as it gets the latest versions
+# while apt often lags far far behind
 
-#dev
+#dev tools
 sudo apt -y install geany geany-plugins
-sudo apt -y install node npm
+sudo apt -y install nodejs npm
 sudo apt -y install wine
 
 
-#art
+#art tools
 sudo snap install gimp
 sudo snap install inkscape
 sudo snap install blender --classic
 
 
-
-#wetgenes
+#wetgenes ( my code )
 sudo snap install gamecake
 
 
-#sound
+#sound tools
 sudo snap install audacity
 sudo apt -y install lmms
 
