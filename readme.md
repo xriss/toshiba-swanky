@@ -26,6 +26,7 @@ Remember the following keys to boot from USB
 boot into this new install ( CTRL+L ) at chrome bios and we can patch problems with
 
 
+	sudo apt -y install git
 	mkdir git
 	cd git
 	git clone https://github.com/xriss/toshiba-swanky.git
