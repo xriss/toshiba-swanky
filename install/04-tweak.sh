@@ -3,3 +3,4 @@ xfconf-query -c xfwm4 -p /general/use_compositing -s false
 
 #kill the error reporting popup on boot
 sudo apt -y purge apport
+sudo apt -y autoremove
