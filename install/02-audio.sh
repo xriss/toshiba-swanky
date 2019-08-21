@@ -18,7 +18,7 @@ sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.ta
 # update to latest kernel, hopefully this fixes more than it breaks
 # seems to help with sound issuses for now
 
-./ubuntu-mainline-kernel.sh -i
+./ubuntu-mainline-kernel.sh -i --yes
 
 
 
