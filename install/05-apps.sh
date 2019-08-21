@@ -3,20 +3,22 @@
 #dev
 sudo apt -y install geany geany-plugins
 sudo apt -y install node npm
+sudo apt -y install wine
 
 
 #art
 sudo apt -y install gimp
-sudo apt -y install inkscape
-sudo apt -y install blender
+sudo snap install gimp
+sudo snap install inkscape
+sudo snap install blender --classic
 
-
-#sound
-sudo apt -y install audacity
-sudo apt -y install lmms
 
 
 #wetgenes
 sudo snap install gamecake
 
+
+#sound
+sudo snap install audacity
+sudo apt -y install lmms
 
