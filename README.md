@@ -15,37 +15,37 @@ https://xubuntu.org/download
 
 sound is borked (thanks intel)
 
-  git clone https://github.com/plbossart/UCM.git
-  sudo cp -r UCM/chtmax98090/ /usr/share/alsa/ucm/
-  sudo alsaucm -c chtmax98090 set _verb HiFi set _enadev Speakers
-  sudo alsactl store
+	git clone https://github.com/plbossart/UCM.git
+	sudo cp -r UCM/chtmax98090/ /usr/share/alsa/ucm/
+	sudo alsaucm -c chtmax98090 set _verb HiFi set _enadev Speakers
+	sudo alsactl store
 
 Select the second card first
 
-  sudo nano /etc/asound.conf
+	sudo nano /etc/asound.conf
 
 and fill that file with
 
-  pcm.!default {
-      type hw
-      card 1
-  }
+	pcm.!default {
+	  type hw
+	  card 1
+	}
 
-  ctl.!default {
-      type hw
-      card 1
-  }
+	ctl.!default {
+	  type hw
+	  card 1
+	}
 
 
 REBOOOT NOW
 
 this mostly fixes it but we need to open alasamixer and adjust the speaker volume if it warbles
 
-  suco alsamixer
+	sudo alsamixer
 
 Or without a GUI
 
-  sudo amixer set Speaker 25
+	sudo amixer set Speaker 25
 
 
 After suspend we get a black screen
