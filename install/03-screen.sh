@@ -1,2 +1,2 @@
-sudo apt purge light-locker
+sudo apt -y purge light-locker
 
