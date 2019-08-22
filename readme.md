@@ -60,20 +60,22 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 - Click **Continue** (Write changes to disks?)
 - Click **Continue** (Where are you? *Choose your city*)
 - Fill in all empty fields and click **Continue**
-- This will begin the installation
+- This will begin the installation - it will take a while, make another cup of tea
+- Once the installation is complete, click **Restart Now** when prompted
+- You should see a xubuntu logo and a circular loading bar
+- Remove the bootable usb stick when prompted and press **enter**
+- Press **ctrl** and **l** (the L key)
+- Congratulations - you are now running Xubuntu
 
 
-
-Remember the following keys to boot from USB
-
-	reboot
-	CTRL+L
-	ESC
-	2
+### Remember
+From now on, you'll have to press **ctrl** and **l** (the L key) at every boot.  
+If you take the laptop apart and remove the restraining bolt, you won't have to do this.
 
 
-boot into this new install ( CTRL+L ) at chrome bios and we can patch 
-problems with
+## Make Linux happy
+- Ignore any prompts on screen and **connect to the internet**
+- Open a terminal and type the following, one line at a time
 
 
 	sudo apt -y install git
@@ -83,6 +85,7 @@ problems with
 	cd toshiba-swanky/install
 	./00-all.sh
 
+- This will take a good while so take a break away from the screen
 
 it will ask for sudo password to perform the magic then reboot and all 
 is good...
