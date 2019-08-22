@@ -55,8 +55,9 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 - Insert the bootable usb stick
 - Press the **power** button
 - The screen will say *OS verification is OFF*
-- Press **ctrl** and **l** (the L key)
-- Press **esc**
+- *QUICKLY* Press **ctrl** and **l** (the L key)
+- The screen will turn black and display SeaBIOS
+- *QUICKLY* Press **esc** for boot menu
 - Type **2**
 
 
