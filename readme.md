@@ -64,7 +64,7 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 ### 4. Install Xubuntu
 - Click **Install Xubuntu**
 - Click **Continue** (Keyboard Layout *English US*)
-- Click **Continue** (Wireless *I don't want to connect to a wi-fi network right now*)
+- *IMPORTANT* Connect to a wireless point and click **Continue** (Wireless *Choose your connection*)
 - Click **Continue** (Updates and other software *Download updates while installing Xubuntu*)
 - Click **Install Now** (Installation type *Erase disk and install Xubuntu*)
 - Click **Continue** (Write changes to disks?)
@@ -80,7 +80,6 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 
 
 ### 5. Install patches
-- Ignore any prompts on screen and **connect to the internet**
 - Click on the Xubuntu icon on the top left and click on **Terminal Emulator**
 - Type the following, one line at a time
 ```
