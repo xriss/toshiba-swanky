@@ -81,7 +81,8 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 
 ### 5. Install patches
 - Ignore any prompts on screen and **connect to the internet**
-- Open a terminal and type the following, one line at a time
+- Click on the Xubuntu icon on the top left and click on **Terminal Emulator**
+- Type the following, one line at a time
 ```
 	sudo apt -y install git
 	mkdir git
