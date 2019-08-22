@@ -51,7 +51,8 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 
 
 ### 3. Prepare for Xubuntu
-- Insert the bootable usb stick (your chromebook should be off)
+- **Your chromebook should be off at this stage**
+- Insert the bootable usb stick
 - Press the **power** button
 - Press **ctrl** and **l** (the L key)
 - Press **esc**
