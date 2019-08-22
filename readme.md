@@ -23,7 +23,7 @@ Follow these instructions to install Linux on your chromebook.
 This has only been tested with Xubuntu 19.04 on the 2014 Toshiba Skullcandy.
 
 ### 1. Install developer mode
-- Turn the chromebook off  
+- **Turn the chromebook off**  
 - Press the **esc**, **refresh (circular arrow)** and **power** buttons at the same time  
 - Wait until you see *Chrome OS is missing or damaged. Please insert a recovery USB stick or SD card.*  
 - Press **ctrl** and **d**  
