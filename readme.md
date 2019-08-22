@@ -34,7 +34,7 @@ This has only been tested with Xubuntu 19.04 on the 2014 Toshiba Skullcandy.
 
 
 ### 2. Install RM_LEGACY so we can boot from USB
-- Connect to the internet and go [here](https://github.com/xriss/toshiba-swanky#1-install-developer-mode) in your browser
+- Connect to the internet and open this page in your browser
 - Press **ctrl**, **alt** and **t** to load the terminal  
 - Type ```shell``` and press **enter**
 - Copy and paste the following to avoid typos - *the 2nd curl parameter is a capital O, not a zero*
