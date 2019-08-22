@@ -40,19 +40,28 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 - Press **enter** again to start installing RM_LEGACY firmware
 - The chromebook will chug away for a while, make yourself a cup of tea
 - Once the firmware is successfully installed, press **enter** when prompted
-- Type **r** and press **enter** to Reboot your chromebook
+- Type **p** and press **enter** to turn off your chromebook
 
+
+### Prepare for Xubuntu
+- Insert the bootable usb stick (your chromebook should be off)
+- Press the **power** button
+- Press **ctrl** and **l**
+- Press **esc**
+- Type **2**
 
 
 ### Install Xubuntu
+- Click **Install Xubuntu**
+- Click **Continue** (Keyboard Layout *English US*)
+- Click **Continue** (Wireless *I don't want to connect to a wi-fi network right now*)
+- Click **Continue** (Updates and other software *Download updates while installing Xubuntu*)
+- Click **Install Now** (Installation type *Erase disk and install Xubuntu*)
+- Click **Continue** (Write changes to disks?)
+- Click **Continue** (Where are you? *Choose your city*)
+- Fill in all empty fields and click **Continue**
+- This will begin the installation
 
-If you take the laptop apart and remove the restraining bolt it is nicer 
-but an RW_LEGACY install is enough. It just requires a CTRL+L at every boot.
-
-
-Install xubuntu 19.04 from a usb stick
-
-https://xubuntu.org/download
 
 
 Remember the following keys to boot from USB
