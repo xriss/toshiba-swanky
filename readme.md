@@ -84,7 +84,7 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 - When this is complete, type **reboot**
 
 
-## Finish
+### Finish
 - Press **ctrl** and **l** (the L key)
 - Congratulations - you are now running Xubuntu 19.04, all patched up
 
@@ -95,3 +95,4 @@ If you take the laptop apart and remove the restraining bolt, you won't have to 
 
 If you don't press anything, the chromebook will beep and then display *Chrome OS is missing or damaged. Please insert a recovery USB stick or SD card.*  
 Just press the **power** button to turn the chromebook off.
+
