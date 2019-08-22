@@ -26,8 +26,6 @@ This has only been tested with Xubuntu 19.04 on the 2014 Toshiba Skullcandy.
 
 
 ### Install RM_LEGACY so we can boot from USB
-From https://mrchromebox.tech/#fwscript
-
 - Press **ctrl**, **alt** and **t** to load the terminal  
 - Type ```shell``` and press **enter**
 - Copy and paste the following to avoid typos - *the 2nd curl parameter is a capital O, not a zero*
@@ -68,24 +66,25 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 - Congratulations - you are now running Xubuntu
 
 
-## Remember
-From now on, you'll have to press **ctrl** and **l** (the L key) at every boot.  
-If you take the laptop apart and remove the restraining bolt, you won't have to do this.
-
-
-# Finish
+### Install patches
 - Ignore any prompts on screen and **connect to the internet**
 - Open a terminal and type the following, one line at a time
-
+```
 	sudo apt -y install git
 	mkdir git
 	cd git
 	git clone https://github.com/xriss/toshiba-swanky.git
 	cd toshiba-swanky/install
 	./00-all.sh
-
+```
 - This will take a good while so take a break away from the screen
+- If the chromebook goes into suspend mode and the screen turns black, do the following to wake it up
+    - Press **ctrl**, **alt** and **F1 (button to the right of esc)**
+    - Press **ctrl**, **alt** and **F7 (button to the left of mute)**
+- When this is complete, type **reboot**
 
-it will ask for sudo password to perform the magic then reboot and all 
-is good...
+
+## Remember
+From now on, you'll have to press **ctrl** and **l** (the L key) at every boot.  
+If you take the laptop apart and remove the restraining bolt, you won't have to do this.
 
