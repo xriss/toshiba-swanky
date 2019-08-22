@@ -1,6 +1,18 @@
 # Get Linux happy on a TOSHIBA CB30-B-13
-Follow these instructions to install Linux on your chromebook.
-This has only been tested on the 2014 Toshiba Skullcandy.
+
+### Before you start
+Make sure you already have a bootable Xubuntu 19.04 (Disco Dingo) usb stick
+
+- Go to https://xubuntu.org/download  
+- Scroll down to **Latest stable release: 19.04, Disco Dingo**
+- Click on **64-bit systems** to download the torrent  
+- Double-click the torrent file to download the Xubuntu ISO
+- Follow https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-ubuntu#0
+
+# Start
+
+Follow these instructions to install Linux on your chromebook.  
+This has only been tested with Xubuntu 19.04 on the 2014 Toshiba Skullcandy.
 
 ### Install developer mode
 - Turn the chromebook off  
@@ -30,6 +42,9 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 - Once the firmware is successfully installed, press **enter** when prompted
 - Type **r** and press **enter** to Reboot your chromebook
 
+
+
+### Install Xubuntu
 
 If you take the laptop apart and remove the restraining bolt it is nicer 
 but an RW_LEGACY install is enough. It just requires a CTRL+L at every boot.
