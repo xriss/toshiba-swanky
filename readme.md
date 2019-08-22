@@ -14,7 +14,7 @@ Make sure you already have a bootable Xubuntu 19.04 (Disco Dingo) usb stick
 Follow these instructions to install Linux on your chromebook.  
 This has only been tested with Xubuntu 19.04 on the 2014 Toshiba Skullcandy.
 
-### Install developer mode
+### 1. Install developer mode
 - Turn the chromebook off  
 - Press the **esc**, **refresh (circular arrow)** and **power** buttons at the same time  
 - Wait until you see *Chrome OS is missing or damaged. Please insert a recovery USB stick or SD card.*  
@@ -25,7 +25,7 @@ This has only been tested with Xubuntu 19.04 on the 2014 Toshiba Skullcandy.
 - Click on **Browse as Guest**
 
 
-### Install RM_LEGACY so we can boot from USB
+### 2. Install RM_LEGACY so we can boot from USB
 - Press **ctrl**, **alt** and **t** to load the terminal  
 - Type ```shell``` and press **enter**
 - Copy and paste the following to avoid typos - *the 2nd curl parameter is a capital O, not a zero*
@@ -41,7 +41,7 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 - Type **p** and press **enter** to turn off your chromebook
 
 
-### Prepare for Xubuntu
+### 3. Prepare for Xubuntu
 - Insert the bootable usb stick (your chromebook should be off)
 - Press the **power** button
 - Press **ctrl** and **l** (the L key)
@@ -49,7 +49,7 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 - Type **2**
 
 
-### Install Xubuntu
+### 4. Install Xubuntu
 - Click **Install Xubuntu**
 - Click **Continue** (Keyboard Layout *English US*)
 - Click **Continue** (Wireless *I don't want to connect to a wi-fi network right now*)
@@ -66,7 +66,7 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 - This will launch Xubuntu but it needs some patches to update to the latest kernel and fix the audio
 
 
-### Install patches
+### 5. Install patches
 - Ignore any prompts on screen and **connect to the internet**
 - Open a terminal and type the following, one line at a time
 ```
@@ -84,7 +84,7 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 - When this is complete, type **reboot**
 
 
-### Finish
+### 6. Finish
 - Press **ctrl** and **l** (the L key)
 - Congratulations - you are now running Xubuntu 19.04, all patched up
 
