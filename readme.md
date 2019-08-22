@@ -98,9 +98,10 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 
 
 ## Remember
-From now on, you'll have to press **ctrl** and **l** (the L key) at every boot to launch Xubuntu.  
+From now on, you'll have to press **ctrl** and **l** (the L key) at **every boot to launch Xubuntu**.  
 If you take the laptop apart and remove the restraining bolt, you won't have to do this.
 
-If you don't press anything, the chromebook will beep and then display *Chrome OS is missing or damaged. Please insert a recovery USB stick or SD card.*  
+If you don't press anything at boot, the chromebook will beep and then display  
+*Chrome OS is missing or damaged. Please insert a recovery USB stick or SD card.*  
 Just press the **power** button to turn the chromebook off.
 
