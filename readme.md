@@ -54,6 +54,7 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 - **Your chromebook should be off at this stage**
 - Insert the bootable usb stick
 - Press the **power** button
+- The screen will say *OS verification is OFF*
 - Press **ctrl** and **l** (the L key)
 - Press **esc**
 - Type **2**
@@ -103,7 +104,7 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 From now on, you'll have to press **ctrl** and **l** (the L key) at **every boot to launch Xubuntu**.  
 If you take the laptop apart and remove the restraining bolt, you won't have to do this.
 
-If you don't press anything at boot, the chromebook will beep and then display  
+If you don't press anything at boot, the chromebook will beep twice and then display  
 *Chrome OS is missing or damaged. Please insert a recovery USB stick or SD card.*  
 Just press the **power** button to turn the chromebook off.
 
