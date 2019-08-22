@@ -81,6 +81,7 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 
 
 ### 5. Install patches
+- Ignore any popups or prompts for updates
 - Click on the Xubuntu icon on the top left and click on **Terminal Emulator**
 - Type the following, one line at a time
 ```
