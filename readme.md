@@ -29,7 +29,8 @@ This has only been tested with Xubuntu 19.04 on the 2014 Toshiba Skullcandy.
 - Press **ctrl** and **d**  
 - Press **enter** when the screen tells you to
 - The chromebook will now restart and you will be in developer mode  
-- Press **ctrl** and **d**
+- The screen will say *OS verification is OFF*
+- *QUICKLY* Press **ctrl** and **d**  
 - Click on **Browse as Guest**
 
 
