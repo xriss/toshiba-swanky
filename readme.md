@@ -74,7 +74,8 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 - Once the installation is complete, click **Restart Now** when prompted
 - You should see a xubuntu logo and a circular loading bar
 - Remove the bootable usb stick when prompted and press **enter**
-- Press **ctrl** and **l** (the L key)
+- The screen will say *OS verification is OFF*
+- *QUICKLY* Press **ctrl** and **l** (the L key)
 - This will launch Xubuntu but it needs some patches to update to the latest kernel and fix the audio
 
 
