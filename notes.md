@@ -2,6 +2,8 @@
 
 Notes for getting linux happy on a TOSHIBA CB30-B-13
 
+**chromeos is on usb stick labelled cos**
+
 install developer mode and then RM_LEGACY so we can boot from USB
 
 https://mrchromebox.tech/#fwscript
