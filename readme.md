@@ -17,7 +17,7 @@ This has only been tested with Xubuntu 19.04 on the 2014 Toshiba Skullcandy.
 ### Install developer mode
 - Turn the chromebook off  
 - Press the **esc**, **refresh (circular arrow)** and **power** buttons at the same time  
-- Wait until you see *Chrome OS is missing or damaged. Please insert USB stick.*  
+- Wait until you see *Chrome OS is missing or damaged. Please insert a recovery USB stick or SD card.*  
 - Press **ctrl** and **d**  
 - Press **enter** when the screen tells you to
 - The chromebook will now restart and you will be in developer mode  
@@ -63,7 +63,7 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 - You should see a xubuntu logo and a circular loading bar
 - Remove the bootable usb stick when prompted and press **enter**
 - Press **ctrl** and **l** (the L key)
-- Congratulations - you are now running Xubuntu
+- This will launch Xubuntu but it needs some patches to update to the latest kernel and fix the audio
 
 
 ### Install patches
@@ -84,7 +84,15 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 - When this is complete, type **reboot**
 
 
+### Finish
+- Press **ctrl** and **l** (the L key)
+- Congratulations - you are now running Xubuntu 19.04, all patched up
+
+
 ## Remember
-From now on, you'll have to press **ctrl** and **l** (the L key) at every boot.  
+From now on, you'll have to press **ctrl** and **l** (the L key) at every boot to launch Xubuntu.  
 If you take the laptop apart and remove the restraining bolt, you won't have to do this.
+
+If you don't press anything, the chromebook will beep and then display *Chrome OS is missing or damaged. Please insert a recovery USB stick or SD card.*  
+Just press the **power** button to turn the chromebook off.
 
