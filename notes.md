@@ -6,7 +6,7 @@ install developer mode and then RM_LEGACY so we can boot from USB
 
 https://mrchromebox.tech/#fwscript
  
-A RW_LEGACY install requires you to press CTRL+L at every boot
+A RW_LEGACY install requires you to press CTRL+L at every boot  
 If you take the laptop apart and remove the restraining bolt, you won't have to do this
 
 Install xubuntu 19.04 from a usb stick
