@@ -68,15 +68,14 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 - Congratulations - you are now running Xubuntu
 
 
-### Remember
+## Remember
 From now on, you'll have to press **ctrl** and **l** (the L key) at every boot.  
 If you take the laptop apart and remove the restraining bolt, you won't have to do this.
 
 
-## Make Linux happy
+# Finish
 - Ignore any prompts on screen and **connect to the internet**
 - Open a terminal and type the following, one line at a time
-
 
 	sudo apt -y install git
 	mkdir git
