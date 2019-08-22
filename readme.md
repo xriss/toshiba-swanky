@@ -9,6 +9,14 @@ Make sure you already have a bootable Xubuntu 19.04 (Disco Dingo) usb stick
 - Double-click the torrent file to download the Xubuntu ISO
 - Follow https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-ubuntu#0
 
+## Table of contents
+1. [Install developer mode](https://github.com/xriss/toshiba-swanky#1-install-developer-mode)  
+2. [Install RM_LEGACY so we can boot from USB](https://github.com/xriss/toshiba-swanky#2-install-rm_legacy-so-we-can-boot-from-usb)  
+3. [Prepare for Xubuntu](https://github.com/xriss/toshiba-swanky#3-prepare-for-xubuntu)  
+4. [Install Xubuntu](https://github.com/xriss/toshiba-swanky#4-install-xubuntu)  
+5. [Install patches](https://github.com/xriss/toshiba-swanky#5-install-patches)  
+6. [Finish](https://github.com/xriss/toshiba-swanky#6-finish)  
+
 # Start
 
 Follow these instructions to install Linux on your chromebook.  
@@ -78,7 +86,7 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 	./00-all.sh
 ```
 - This will take a good while so take a break away from the screen
-- If the chromebook goes into suspend mode and the screen turns black, do the following to wake it up
+- *If the chromebook goes into suspend mode and the screen turns black, do the following to wake it up*
     - Press **ctrl**, **alt** and **F1 (button to the right of esc)**
     - Press **ctrl**, **alt** and **F7 (button to the left of mute)**
 - When this is complete, type **reboot**
