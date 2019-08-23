@@ -1,11 +1,14 @@
 
 # a few random tweaks that make sense for this laptop
 
+
 # remove title bar when maximised (we have a small screen)
 xfconf-query -c xfwm4 -p /general/titleless_maximize -s true
 
+
 # turn off pointless extra gpu use
 xfconf-query -c xfwm4 -p /general/use_compositing -s false
+
 
 # the error reporting popup always happens on boot
 # not sure why this happens but lets just purge it
@@ -23,4 +26,10 @@ EOT
 
 sudo mkdir -p /sdcard
 ln -s /sdcard ~/
+
+
+# set background image
+
+sudo cp weirdspace.jpg /usr/share/backgrounds/xfce/weirdspace.jpg
+xfconf-query --channel xfce4-desktop --property /backdrop/screen0/monitor0/image-path --set /usr/share/backgrounds/xfce/weirdspace.jpg
 
