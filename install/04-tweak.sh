@@ -18,11 +18,9 @@ sudo apt -y autoremove
 
 sudo sed -i '/\/dev\/mmcblk1p1/d' /etc/fstab
 cat <<EOT | sudo tee -a /etc/fstab
-/dev/mmcblk1p1 /sdcard  ext4    auto,nofail,noatime,rw,user
+/dev/mmcblk1p1 /sdcard    vfat    umask=000,dmask=027,fmask=027,uid=1000,gid=1000,noatime,user,auto,nofail,rw
 EOT
 
 sudo mkdir -p /sdcard
-mount /sdcard
-sudo chown 1000:1000 /sdcard
 ln -s /sdcard ~/
 
