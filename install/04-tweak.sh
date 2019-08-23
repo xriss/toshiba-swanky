@@ -30,6 +30,6 @@ ln -s /sdcard ~/
 
 # set background image
 
-sudo cp weirdspace.jpg /usr/share/backgrounds/xfce/weirdspace.jpg
-xfconf-query --channel xfce4-desktop --property /backdrop/screen0/monitor0/image-path --set /usr/share/backgrounds/xfce/weirdspace.jpg
+sudo cp weirdspace.jpg /usr/share/xfce4/backdrops/weirdspace.jpg
+xfconf-query --channel xfce4-desktop --property /backdrop/screen0/monitoreDP-1/workspace0/last-image --set /usr/share/xfce4/backdrops/weirdspace.jpg
 
