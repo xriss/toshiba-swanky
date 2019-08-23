@@ -7,6 +7,7 @@
 sudo apt -y install geany geany-plugins
 sudo apt -y install nodejs npm
 sudo apt -y install wine
+sudo apt -y install gparted
 
 
 #art tools
