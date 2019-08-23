@@ -6,3 +6,4 @@
 ./03-audio.sh
 ./04-tweak.sh
 ./05-apps.sh
+./06-firefox.sh
