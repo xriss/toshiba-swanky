@@ -16,6 +16,7 @@ sudo apt -y autoremove
 # auto mount sdcard in home on boot with sd card plugged in
 # but do not fail if no sdcard exists
 sudo mkdir -p /sdcard
+sudo chown 1000:1000 /sdcard
 ln -s /sdcard ~/
 
 sudo sed -i '/\/dev\/mmcblk1p1/d' /etc/fstab
