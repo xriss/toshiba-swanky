@@ -26,3 +26,15 @@ xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/lid-action-on-ac -s 
 #restore
 #sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target
 
+
+
+# set boot options 
+# acpi=off fails to boot...
+
+sudo sed -i '/^GRUB_CMDLINE_LINUX_DEFAULT=/d' /etc/default/grub
+cat <<EOT | sudo tee -a /etc/default/grub
+GRUB_CMDLINE_LINUX_DEFAULT=""
+EOT
+
+sudo update-grub
+
