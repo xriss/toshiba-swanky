@@ -13,3 +13,16 @@ xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/brightness-level-on-
 xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/brightness-level-on-ac -s 100
 
 
+xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/lid-action-on-battery -s 1
+xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/lid-action-on-ac -s 1
+
+
+
+# totally disable suspend ?
+
+#disablr
+#sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
+
+#restore
+#sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target
+
