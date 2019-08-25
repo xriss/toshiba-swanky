@@ -12,7 +12,7 @@ xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/blank-on-ac -s 0
 xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/brightness-level-on-battery -s 100
 xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/brightness-level-on-ac -s 100
 
-
+# suspend on lid closed ( too easy to drain the battery without this )
 xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/lid-action-on-battery -s 1
 xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/lid-action-on-ac -s 1
 
