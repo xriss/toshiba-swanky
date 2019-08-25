@@ -25,4 +25,5 @@ sudo snap install gamecake
 #sound tools
 sudo snap install audacity
 sudo apt -y install lmms
+sudo apt -y install fluidsynth
 
