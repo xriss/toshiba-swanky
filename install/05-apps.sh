@@ -26,4 +26,4 @@ sudo snap install gamecake
 sudo snap install audacity
 sudo apt -y install lmms
 sudo apt -y install fluidsynth
-
+sudo apt -y install vmpk
