@@ -27,5 +27,6 @@ sudo snap install audacity
 sudo apt -y install lmms
 sudo apt -y install fluidsynth
 sudo apt -y install vmpk
-sudo apt -y install ardour
+sudo apt -y install amsyth
+sudo apt -y install aconnectgui
 
