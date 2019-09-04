@@ -30,7 +30,7 @@ This has only been tested with Xubuntu 19.04 on the 2014 Toshiba Skullcandy.
 - Press **enter** (To turn OS verification OFF)  
 - The screen will say *OS verification is OFF*
 - *QUICKLY* Press **ctrl** and **d**  
-- The chromebook will now prepare for developer mode and **restart** - *this will take a while*   
+- The chromebook will now prepare for developer mode and **restart** - *this will ~ 5 min*   
 - The screen will say *OS verification is OFF*
 - *QUICKLY* Press **ctrl** and **d**  
 - Click on **Let's go** (Welcome!)  
