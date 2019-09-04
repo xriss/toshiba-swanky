@@ -1,5 +1,14 @@
 
-firefox -CreateProfile $USER
+# I do not think this works at all, fire fox goes out of the way to break it
+exit
+
+
+# fire fox must run, it must, it must, it must...
+firefox &
+sleep 20
+killall firefox
+sleep 5
+# otherwise we can not tweak settings
 
 function getmozpath {(
 cd ~/.mozilla/firefox/
