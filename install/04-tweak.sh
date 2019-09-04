@@ -1,6 +1,4 @@
 
-export DEBIAN_FRONTEND=noninteractive
-
 # a few random tweaks that make sense for this laptop
 
 
