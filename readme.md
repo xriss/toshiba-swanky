@@ -33,7 +33,7 @@ This has only been tested with Xubuntu 19.04 on the 2014 Toshiba Skullcandy.
 - *QUICKLY* Press **ctrl** and **d**  
 - Click on **Let's go**  
 - Connect to a WiFi network and click **Next**  
-- Accept the terms of Agreement
+- Click on **Accept and continue**
 - Click on **Browse as Guest**
 
 
