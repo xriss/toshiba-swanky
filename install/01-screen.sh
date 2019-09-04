@@ -18,13 +18,13 @@ xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/lid-action-on-ac --c
 
 
 
-# suspend ?
+# for suspend to work you need to remove the restraining bolt...
 
 # disable
-#sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
+sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
 
 # enable
-sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target
+#sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target
 
 
 
