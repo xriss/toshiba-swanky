@@ -16,15 +16,17 @@ xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/brightness-level-on-
 xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/lid-action-on-battery --create -t int -s 1
 xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/lid-action-on-ac --create -t int -s 1
 
+# enable suspend
+sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target
 
 
-# for suspend to work you need to remove the restraining bolt...
+# however for suspend to work you need to remove the restraining bolt...
 
-# disable
+# so we disable suspwnd by default
+xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/lid-action-on-battery --create -t int -s 0
+xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/lid-action-on-ac --create -t int -s 0
 sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
 
-# enable
-#sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target
 
 
 
