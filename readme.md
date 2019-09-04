@@ -27,7 +27,9 @@ This has only been tested with Xubuntu 19.04 on the 2014 Toshiba Skullcandy.
 - Press the **esc**, **refresh (circular arrow)** and **power** buttons at the same time  
 - Wait until you see *Chrome OS is missing or damaged. Please insert a recovery USB stick or SD card.*  
 - Press **ctrl** and **d**  
-- Press **enter** when the screen tells you to
+- Press **enter** (To turn OS verification OFF)  
+- The screen will say *OS verification is OFF*
+- *QUICKLY* Press **ctrl** and **d**  
 - The chromebook will now prepare for developer mode and **restart** - *this will take a while*   
 - The screen will say *OS verification is OFF*
 - *QUICKLY* Press **ctrl** and **d**  
