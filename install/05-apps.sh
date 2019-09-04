@@ -1,4 +1,6 @@
 
+export DEBIAN_FRONTEND=noninteractive
+
 # install heavy applications that we often use
 # using snap is prefered as it gets the latest versions
 # while apt often lags far far behind

@@ -1,4 +1,6 @@
 
+export DEBIAN_FRONTEND=noninteractive
+
 # general update and upgrade the system
 
 sudo apt -y update

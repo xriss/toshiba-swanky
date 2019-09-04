@@ -1,4 +1,6 @@
 
+export DEBIAN_FRONTEND=noninteractive
+
 # a few random tweaks that make sense for this laptop
 
 
@@ -43,4 +45,4 @@ EOT
 
 # randomise the mac address
 
-#sudo apt -y install macchanger
+sudo apt -y install macchanger

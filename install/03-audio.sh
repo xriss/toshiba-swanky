@@ -1,4 +1,6 @@
 
+export DEBIAN_FRONTEND=noninteractive
+
 #enable the chtmax98090 audio device
 
 # modified from https://github.com/plbossart/UCM

@@ -1,4 +1,6 @@
 
+export DEBIAN_FRONTEND=noninteractive
+
 # the lock screen is buggy ( black display )
 # simplest solution is to remove it
 
