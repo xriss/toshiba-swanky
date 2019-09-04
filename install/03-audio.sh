@@ -13,7 +13,10 @@ sudo cp -r chtmax98090/ /usr/share/alsa/ucm/
 # update to latest kernel, hopefully this fixes more than it breaks
 # seems to help with sound issuses for now
 
-./ubuntu-mainline-kernel.sh -i --yes
+./ubuntu-mainline-kernel.sh -c
+if [ $? -eq 1 ] ; then
+	./ubuntu-mainline-kernel.sh -i --yes
+fi
 
 
 
