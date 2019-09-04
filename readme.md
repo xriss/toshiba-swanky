@@ -39,14 +39,14 @@ This has only been tested with Xubuntu 19.04 on the 2014 Toshiba Skullcandy.
 
 ### 2. Install RM_LEGACY so we can boot from USB
 - Open a browser and **open this page** ```https://github.com/xriss/toshiba-swanky```  
-- Press **ctrl**, **alt** and **t** to load the terminal  
-- Type ```shell``` and press **enter**
-- Copy and paste the following to avoid typos - *the 2nd curl parameter is a capital O, not a zero*
+- Copy the following to avoid typos - *the 2nd curl parameter is a capital O, not a zero*
     - Click the touchpad with two fingers to open the right-click menu
 ```
 cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh
 ```
-- Press **enter**
+- Press **ctrl**, **alt** and **t** to load the terminal  
+- Type ```shell``` and press **enter**  
+- **Right-click, paste and press enter**  
 - Type **1** and press **enter**
 - Press **enter** again to start installing RM_LEGACY firmware
 - The chromebook will chug away for a while, make yourself a cup of tea
