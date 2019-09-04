@@ -6,15 +6,15 @@ sudo DEBIAN_FRONTEND=noninteractive apt -y purge light-locker
 sudo DEBIAN_FRONTEND=noninteractive apt -y autoremove
 
 
-xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/dpms-enabled -create -t bool -s false
-xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/blank-on-battery -create -t int -s 0
-xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/blank-on-ac -create -t int -s 0
-xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/brightness-level-on-battery -create -t int -s 100
-xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/brightness-level-on-ac -create -t int -s 100
+xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/dpms-enabled --create -t bool -s false
+xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/blank-on-battery --create -t int -s 0
+xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/blank-on-ac --create -t int -s 0
+xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/brightness-level-on-battery --create -t int -s 100
+xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/brightness-level-on-ac --create -t int -s 100
 
 # suspend on lid closed ( too easy to drain the battery without this )
-xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/lid-action-on-battery -create -t int -s 1
-xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/lid-action-on-ac -create -t int -s 1
+xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/lid-action-on-battery --create -t int -s 1
+xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/lid-action-on-ac --create -t int -s 1
 
 
 
