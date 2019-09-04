@@ -14,8 +14,8 @@ xfconf-query -c xfwm4 -p /general/use_compositing -s false
 
 # the error reporting popup always happens on boot
 # not sure why this happens but lets just purge it
-sudo apt -y purge apport
-sudo apt -y autoremove
+sudo DEBIAN_FRONTEND=noninteractive apt -y purge apport
+sudo DEBIAN_FRONTEND=noninteractive apt -y autoremove
 
 
 # auto mount sdcard in home on boot with sd card plugged in
@@ -42,7 +42,3 @@ cat <<EOT | sudo tee -a /usr/share/lightdm/lightdm.conf.d/50-disable-guest.conf
 allow-guest=true
 EOT
 
-
-# randomise the mac address
-
-sudo apt -y install macchanger
