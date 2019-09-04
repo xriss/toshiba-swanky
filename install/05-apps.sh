@@ -4,15 +4,15 @@
 # while apt often lags far far behind
 
 #dev tools
-sudo apt -y install geany geany-plugins
-sudo apt -y install nodejs npm
-sudo apt -y install wine
-sudo apt -y install gparted
-sudo apt -y install wavemon
+sudo DEBIAN_FRONTEND=noninteractive apt -y install geany geany-plugins
+sudo DEBIAN_FRONTEND=noninteractive apt -y install nodejs npm
+sudo DEBIAN_FRONTEND=noninteractive apt -y install wine
+sudo DEBIAN_FRONTEND=noninteractive apt -y install gparted
+sudo DEBIAN_FRONTEND=noninteractive apt -y install wavemon
 
 
 #art tools
-sudo apt -y purge gimp
+sudo DEBIAN_FRONTEND=noninteractive apt -y purge gimp
 sudo snap install gimp
 sudo snap install inkscape
 sudo snap install blender --classic
@@ -24,9 +24,9 @@ sudo snap install gamecake
 
 #sound tools
 sudo snap install audacity
-sudo apt -y install lmms
-sudo apt -y install fluidsynth
-sudo apt -y install vmpk
-sudo apt -y install amsyth
-sudo apt -y install aconnectgui
+sudo DEBIAN_FRONTEND=noninteractive apt -y install lmms
+sudo DEBIAN_FRONTEND=noninteractive apt -y install fluidsynth
+sudo DEBIAN_FRONTEND=noninteractive apt -y install vmpk
+sudo DEBIAN_FRONTEND=noninteractive apt -y install amsyth
+sudo DEBIAN_FRONTEND=noninteractive apt -y install aconnectgui
 

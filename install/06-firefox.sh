@@ -1,3 +1,4 @@
+
 function getmozpath {(
 cd ~/.mozilla/firefox/
 if [[ $(grep '\[Profile[^0]\]' profiles.ini) ]]

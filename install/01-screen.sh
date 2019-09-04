@@ -2,8 +2,8 @@
 # the lock screen is buggy ( black display )
 # simplest solution is to remove it
 
-sudo apt -y purge light-locker
-sudo apt -y autoremove
+sudo DEBIAN_FRONTEND=noninteractive apt -y purge light-locker
+sudo DEBIAN_FRONTEND=noninteractive apt -y autoremove
 
 
 xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/dpms-enabled -s false
