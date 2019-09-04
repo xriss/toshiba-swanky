@@ -3,11 +3,11 @@
 
 
 # remove title bar when maximised (we have a small screen)
-xfconf-query -c xfwm4 -p /general/titleless_maximize -s true
+xfconf-query --create -c xfwm4 -p /general/titleless_maximize -s true
 
 
 # turn off pointless extra gpu use
-xfconf-query -c xfwm4 -p /general/use_compositing -s false
+xfconf-query --create -c xfwm4 -p /general/use_compositing -s false
 
 
 # the error reporting popup always happens on boot
@@ -31,7 +31,7 @@ ln -s /sdcard ~/
 # set background image
 
 sudo cp weirdspace.jpg /usr/share/xfce4/backdrops/weirdspace.jpg
-xfconf-query --channel xfce4-desktop --property /backdrop/screen0/monitoreDP-1/workspace0/last-image --set /usr/share/xfce4/backdrops/weirdspace.jpg
+xfconf-query --create --channel xfce4-desktop --property /backdrop/screen0/monitoreDP-1/workspace0/last-image --set /usr/share/xfce4/backdrops/weirdspace.jpg
 
 # enable guest login 
 
