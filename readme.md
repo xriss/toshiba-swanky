@@ -34,7 +34,7 @@ This has only been tested with Xubuntu 19.04 on the 2014 Toshiba Skullcandy.
 - Click on **Let's go** (Welcome!)  
 - Connect to a WiFi network and click **Next**  
 - Click on **Accept and continue** (Google Chrome OS terms)  
-- Click on **Browse as Guest**
+- Click on **Browse as Guest** (bottom left link)
 
 
 ### 2. Install RM_LEGACY so we can boot from USB
