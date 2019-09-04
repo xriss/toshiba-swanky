@@ -31,19 +31,22 @@ This has only been tested with Xubuntu 19.04 on the 2014 Toshiba Skullcandy.
 - The chromebook will now restart and you will be in developer mode  
 - The screen will say *OS verification is OFF*
 - *QUICKLY* Press **ctrl** and **d**  
+- Click on **Let's go**  
+- Connect to a WiFi network and click **Next**  
+- Accept the terms of Agreement
 - Click on **Browse as Guest**
 
 
 ### 2. Install RM_LEGACY so we can boot from USB
-- Connect to the internet and **open this page in your browser**
-- Press **ctrl**, **alt** and **t** to load the terminal  
-- Type ```shell``` and press **enter**
-- Copy and paste the following to avoid typos - *the 2nd curl parameter is a capital O, not a zero*
+- Open a browser and **open this page** ```https://github.com/xriss/toshiba-swanky```  
+- Copy the following to avoid typos - *the 2nd curl parameter is a capital O, not a zero*
     - Click the touchpad with two fingers to open the right-click menu
 ```
 cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh
 ```
-- Press **enter**
+- Press **ctrl**, **alt** and **t** to load the terminal  
+- Type ```shell``` and press **enter**  
+- **Right-click, paste and press enter**  
 - Type **1** and press **enter**
 - Press **enter** again to start installing RM_LEGACY firmware
 - The chromebook will chug away for a while, make yourself a cup of tea
