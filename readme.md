@@ -46,7 +46,7 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 ```
 - Press **ctrl**, **alt** and **t** to load the terminal  
 - Type ```shell``` and press **enter**  
-- **Right-click, paste and press enter**  
+- Click the touchpad with two fingers to **paste** and press **enter**  
 - Type **1** and press **enter**
 - Press **enter** again to start installing RM_LEGACY firmware
 - The chromebook will chug away for a while, make yourself a cup of tea
