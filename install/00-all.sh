@@ -1,6 +1,4 @@
 
-export DEBIAN_FRONTEND=noninteractive
-
 # just call all the other scripts
 
 ./01-screen.sh
