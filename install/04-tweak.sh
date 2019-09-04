@@ -39,3 +39,8 @@ sudo sed -i '/^allow-guest=/d' /usr/share/lightdm/lightdm.conf.d/50-disable-gues
 cat <<EOT | sudo tee -a /usr/share/lightdm/lightdm.conf.d/50-disable-guest.conf
 allow-guest=true
 EOT
+
+
+# randomise the mac address
+
+sudo apt -y install macchanger
