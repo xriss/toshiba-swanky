@@ -43,4 +43,4 @@ EOT
 
 # randomise the mac address
 
-sudo apt -y install macchanger
+#sudo apt -y install macchanger
