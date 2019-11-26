@@ -3,6 +3,7 @@
 # simplest solution is to remove it
 
 sudo DEBIAN_FRONTEND=noninteractive apt -y purge light-locker
+sudo DEBIAN_FRONTEND=noninteractive apt -y purge xfce4-screensaver
 sudo DEBIAN_FRONTEND=noninteractive apt -y autoremove
 
 
