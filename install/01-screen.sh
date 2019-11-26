@@ -7,9 +7,25 @@ xset s noblank
 xset s noexpose
 xset s 0 0
 EOT
-xset -q
+
+mkdir  -p ~/.config/autostart
+cat <<EOT | tee -a ~/.config/autostart/xinitrc.desktop
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.9.4
+Type=Application
+Name=xinitrc
+Comment=~/.config/autostart
+Exec=~/.xinitrc
+OnlyShowIn=XFCE;
+RunHook=0
+StartupNotify=false
+Terminal=false
+Hidden=false
+EOT
+
 bash ~/.xinitrc
-xset -q
+
 
 # disble screensaver and lock
 xfconf-query -c xfce4-screensaver -p /saver/enabled --create -t bool -s false
