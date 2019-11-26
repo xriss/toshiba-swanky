@@ -1,6 +1,7 @@
 
 # try and convince the screen not to blank, now and forever
-cat <<EOT | tee -a ~/.xinitrc
+cat <<EOT | tee ~/.xinitrc
+sleep 10
 xset -dpms
 xset s off
 xset s noblank
