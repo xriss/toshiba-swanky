@@ -1,14 +1,9 @@
 
-# the lock screen is buggy ( black display )
-# simplest solution is to remove it
-
-#sudo DEBIAN_FRONTEND=noninteractive apt -y purge light-locker
-#sudo DEBIAN_FRONTEND=noninteractive apt -y purge xfce4-screensaver
-sudo DEBIAN_FRONTEND=noninteractive apt -y autoremove
-
+# disble screensaver and lock
 xfconf-query -c xfce4-screensaver -p /saver/enabled --create -t bool -s false
 xfconf-query -c xfce4-screensaver -p /lock/enabled --create -t bool -s false
 
+# disable powermanagment of the screen
 xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/dpms-enabled --create -t bool -s false
 xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/blank-on-battery --create -t int -s 0
 xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/blank-on-ac --create -t int -s 0
@@ -21,16 +16,6 @@ xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/lid-action-on-ac --c
 
 # enable suspend
 sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target
-
-
-# however for suspend to work you need to remove the restraining bolt...
-
-# so we disable suspwnd by default
-#xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/lid-action-on-battery --create -t int -s 0
-#xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/lid-action-on-ac --create -t int -s 0
-#sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
-
-
 
 
 # set boot options 
