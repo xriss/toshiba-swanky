@@ -9,14 +9,14 @@ xset s 0 0
 EOT
 
 mkdir  -p ~/.config/autostart
-cat <<EOT | tee -a ~/.config/autostart/xinitrc.desktop
+cat <<EOT | tee ~/.config/autostart/xinitrc.desktop
 [Desktop Entry]
 Encoding=UTF-8
 Version=0.9.4
 Type=Application
 Name=xinitrc
 Comment=~/.config/autostart
-Exec=~/.xinitrc
+Exec=/home/$USER/.xinitrc
 OnlyShowIn=XFCE;
 RunHook=0
 StartupNotify=false
