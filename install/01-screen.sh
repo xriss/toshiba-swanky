@@ -1,4 +1,16 @@
 
+# try and convince the screen not to blank, now and forever
+cat <<EOT | tee -a ~/.xinitrc
+xset -dpms
+xset s off
+xset s noblank
+xset s noexpose
+xset s 0 0
+EOT
+xset -q
+bash ~/.xinitrc
+xset -q
+
 # disble screensaver and lock
 xfconf-query -c xfce4-screensaver -p /saver/enabled --create -t bool -s false
 xfconf-query -c xfce4-screensaver -p /lock/enabled --create -t bool -s false
