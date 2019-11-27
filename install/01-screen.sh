@@ -37,9 +37,6 @@ Terminal=false
 Hidden=false
 EOT
 
-bash ~/.xinitrc
-
-
 # disble screensaver and lock
 xfconf-query -c xfce4-screensaver -p /saver/enabled --create -t bool -s false
 xfconf-query -c xfce4-screensaver -p /lock/enabled --create -t bool -s false
@@ -59,3 +56,5 @@ xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/lid-action-on-ac --c
 sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target
 
 
+# make sure the screen saver is off
+bash ~/.xinitrc
