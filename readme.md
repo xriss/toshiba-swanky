@@ -11,8 +11,8 @@ Make sure you already have a bootable Xubuntu 19.04 (Disco Dingo) usb stick
 
 ## Table of contents
 1. [Install developer mode](https://github.com/xriss/toshiba-swanky#1-install-developer-mode)  
-2. [Install RM_LEGACY so we can boot from USB](https://github.com/xriss/toshiba-swanky#2-install-rm_legacy-so-we-can-boot-from-usb)  
-3. [Prepare for Xubuntu](https://github.com/xriss/toshiba-swanky#3-prepare-for-xubuntu)  
+2. [Installion with write-protect ON](https://github.com/xriss/toshiba-swanky#2-install-firmware-to-boot-from-usb-rm_legacy-with-write-protect-on)  
+3. [Installation with write-protect disabled](https://github.com/xriss/toshiba-swanky/blob/master/readme.md#3-install-firmware-to-boot-from-usb-full-rom-with-write-protect-disabled)  
 4. [Install Xubuntu](https://github.com/xriss/toshiba-swanky#4-install-xubuntu)  
 5. [Install patches](https://github.com/xriss/toshiba-swanky#5-install-patches)  
 6. [Finish](https://github.com/xriss/toshiba-swanky#6-finish)  
@@ -39,7 +39,9 @@ This has only been tested with Xubuntu 19.04 on the 2014 Toshiba Skullcandy.
 - Click on **Browse as Guest** (bottom left link)
 
 
-### 2. Install firmware to boot from USB (RM_Legacy with legacy bolt)
+### 2. Install firmware to boot from USB (RM_Legacy with write-protect ON)
+_**!Important! Make sure the chromebook always has power, otherwise it will stop booting and you'll have to reinstall everything from scratch (including ChromeOS).**_
+
 - Open a browser and **open this page** ```https://github.com/xriss/toshiba-swanky```  
 - Copy the following to avoid typos - *the 2nd curl parameter is a capital O, not a zero*
     - Click the touchpad with two fingers to open the right-click menu
@@ -65,7 +67,7 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 - Click **Install Xubuntu**
 
 
-### 3. Install firmware to boot from USB (Full ROM with legacy bolt removed)
+### 3. Install firmware to boot from USB (Full ROM with write-protect disabled)
 - Open a browser and **open this page** ```https://github.com/xriss/toshiba-swanky```  
 - Copy the following to avoid typos - *the 2nd curl parameter is a capital O, not a zero*
     - Click the touchpad with two fingers to open the right-click menu
