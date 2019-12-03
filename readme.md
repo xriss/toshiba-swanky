@@ -39,7 +39,7 @@ This has only been tested with Xubuntu 19.04 on the 2014 Toshiba Skullcandy.
 - Click on **Browse as Guest** (bottom left link)
 
 
-### 2. Install RM_LEGACY so we can boot from USB
+### 2. Install firmware to boot from USB (RM_Legacy with legacy bolt)
 - Open a browser and **open this page** ```https://github.com/xriss/toshiba-swanky```  
 - Copy the following to avoid typos - *the 2nd curl parameter is a capital O, not a zero*
     - Click the touchpad with two fingers to open the right-click menu
@@ -49,24 +49,11 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 - Press **ctrl**, **alt** and **t** to load the terminal  
 - Type ```shell``` and press **enter**  
 - Click the touchpad with two fingers to **paste** and press **enter**
-
-If you've not removed the legacy bolt:
 - Type **1** and press **enter**
 - Press **enter** again to start installing RM_LEGACY firmware
 - The chromebook will chug away for a while, make yourself a cup of tea
 - Once the firmware is successfully installed, press **enter** when prompted
 - Type **p** and press **enter** to turn off your chromebook
-
-If you've removed the legacy bolt:
-- Type **3** (Install/Update Full ROM Firmware) and press **enter**
-- Press **y** and **enter**
-- Press **Y** and **enter**
-- Press **n** and **enter**
-- Once the Full ROM firmware is successfully installed, press **enter** when prompted
-- Type **p** and press **enter** to turn off your chromebook
-
-
-### 3. Prepare for Xubuntu
 - **Your chromebook should be off at this stage**
 - Insert the bootable usb stick
 - Press the **power** button
@@ -75,10 +62,34 @@ If you've removed the legacy bolt:
 - The screen will turn black and display SeaBIOS
 - *QUICKLY* Press **esc** for boot menu
 - Type **2**
+- Click **Install Xubuntu**
+
+
+### 3. Install firmware to boot from USB (Full ROM with legacy bolt removed)
+- Open a browser and **open this page** ```https://github.com/xriss/toshiba-swanky```  
+- Copy the following to avoid typos - *the 2nd curl parameter is a capital O, not a zero*
+    - Click the touchpad with two fingers to open the right-click menu
+```
+cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh
+```
+- Press **ctrl**, **alt** and **t** to load the terminal  
+- Type ```shell``` and press **enter**  
+- Click the touchpad with two fingers to **paste** and press **enter**
+- Type **3** (Install/Update Full ROM Firmware) and press **enter**
+- Press **y** and **enter**
+- Press **Y** and **enter**
+- Press **n** and **enter**
+- Once the Full ROM firmware is successfully installed, press **enter** when prompted
+- Type **p** and press **enter** to turn off your chromebook
+- **Your chromebook should be off at this stage**
+- Insert the bootable usb stick
+- Press the **power** button
+- Use the up/down arrow key to select **Boot Menu** and press **enter**
+- Use the up/down arrow key to select the bootable usb stick and press **enter**
+- Use the up/down arrow key to select **Install Xubuntu**
 
 
 ### 4. Install Xubuntu
-- Click **Install Xubuntu**
 - Click **Continue** (Keyboard Layout *English US*)
 - *IMPORTANT* Connect to a wireless point and click **Continue** (Wireless *Choose your connection*)
 - Click **Continue** (Updates and other software *Download updates while installing Xubuntu*)
