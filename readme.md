@@ -92,7 +92,7 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 
 
 ### 4. Install Xubuntu
-- You should be on the Welcome page, click **Continue**
+- Choose a language on the Welcome page and click **Continue**
 - Click **Continue** (Keyboard Layout *English US*)
 - *IMPORTANT* Connect to a wireless point and click **Continue** (Wireless *Choose your connection*)
 - Click **Continue** (Updates and other software *Download updates while installing Xubuntu*)
