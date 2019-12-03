@@ -125,9 +125,6 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 ```
 - You'll need to type in your password (after the first line is typed)
 - This will take a good while so take a break away from the screen
-- *If the chromebook goes into suspend mode and the screen turns black, do the following to wake it up*
-    - Press **ctrl**, **alt** and **F1 (button to the right of esc)**
-    - Press **ctrl**, **alt** and **F7 (button to the left of mute)**
 - When this is complete, type **reboot**
 
 
