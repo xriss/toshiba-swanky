@@ -99,7 +99,7 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 - Click **Install Now** (Installation type *Erase disk and install Xubuntu*)
 - Click **Continue** (Write changes to disks?)
 - Click **Continue** (Where are you? *Choose your city*)
-- Fill in all empty fields and click **Continue**
+- Fill in all empty fields, including choosing a password (_this is important_) and click **Continue**
 - This will begin the installation - it will take a while and the screen might turn off
 - If the screen turns off, just move your fingers on the touchpad to wake it up
 - Once the installation is complete, click **Restart Now** when prompted
@@ -123,6 +123,7 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 	cd toshiba-swanky/install
 	./00-all.sh
 ```
+- You'll need to type in your password (after the first line is typed)
 - This will take a good while so take a break away from the screen
 - *If the chromebook goes into suspend mode and the screen turns black, do the following to wake it up*
     - Press **ctrl**, **alt** and **F1 (button to the right of esc)**
