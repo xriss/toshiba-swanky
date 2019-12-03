@@ -133,7 +133,7 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 
 
 ## Remember
-_If you have write-protect ON (the original Chromebook without any hardware modifications):_
+_If you have write-protect ON (the original Chromebook without any hardware modifications):_  
 From now on, you'll have to press **ctrl** and **l** (the L key) at **every boot to launch Xubuntu**.
 
 If you take the laptop apart and remove the restraining bolt, you won't have to do this.
