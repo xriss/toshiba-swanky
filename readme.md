@@ -48,12 +48,21 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 ```
 - Press **ctrl**, **alt** and **t** to load the terminal  
 - Type ```shell``` and press **enter**  
-- Click the touchpad with two fingers to **paste** and press **enter**  
+- Click the touchpad with two fingers to **paste** and press **enter**
+
+If you've not removed the legacy bolt:
 - Type **1** and press **enter**
 - Press **enter** again to start installing RM_LEGACY firmware
 - The chromebook will chug away for a while, make yourself a cup of tea
 - Once the firmware is successfully installed, press **enter** when prompted
 - Type **p** and press **enter** to turn off your chromebook
+
+If you've removed the legacy bolt:
+- Type **3** (Install/Update Full ROM Firmware) and press **enter**
+- Press **y** and **enter**
+- Press **Y** and **enter**
+- Press **n** and **enter**
+- Once the Full ROM firmware is successfully installed, press **enter** when prompted
 
 
 ### 3. Prepare for Xubuntu
