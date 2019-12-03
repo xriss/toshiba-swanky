@@ -100,7 +100,8 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 - Click **Continue** (Write changes to disks?)
 - Click **Continue** (Where are you? *Choose your city*)
 - Fill in all empty fields and click **Continue**
-- This will begin the installation - it will take a while, make another cup of tea
+- This will begin the installation - it will take a while and the screen might turn off
+- If the screen turns off, just move your fingers on the touchpad to wake it up
 - Once the installation is complete, click **Restart Now** when prompted
 - You should see a xubuntu logo and a circular loading bar
 - Remove the bootable usb stick when prompted and press **enter**
