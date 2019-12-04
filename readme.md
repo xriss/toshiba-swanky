@@ -133,7 +133,7 @@ If the Chromebook does not recognise the usb stick:
 
 
 ### 6. Finish
-- Press **ctrl** and **l** (the L key)
+- Press **ctrl** and **l** (the L key) _Skip this if you have disabled write-protect_  
 - Congratulations - you are now running Xubuntu 19.04, all patched up
 
 
