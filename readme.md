@@ -9,6 +9,8 @@ Make sure you already have a bootable Xubuntu 19.04 (Disco Dingo) usb stick
 - Double-click the torrent file to download the Xubuntu ISO
 - Follow https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-ubuntu#0
 
+_**!Important! If you decide not to remove write-protect, make sure the chromebook always has power, otherwise it will stop booting and you'll have to reinstall everything from scratch (including ChromeOS).**_
+
 ## Table of contents
 1. [Install developer mode](https://github.com/xriss/toshiba-swanky#1-install-developer-mode)  
 2. [Installion with write-protect ON](https://github.com/xriss/toshiba-swanky#2-install-firmware-to-boot-from-usb-rm_legacy-with-write-protect-on)  
@@ -40,8 +42,6 @@ This has only been tested with Xubuntu 19.04 on the 2014 Toshiba Skullcandy.
 
 
 ### 2. Install firmware to boot from USB (RM_Legacy with write-protect ON)
-_**!Important! Make sure the chromebook always has power, otherwise it will stop booting and you'll have to reinstall everything from scratch (including ChromeOS).**_
-
 - Open a browser and **open this page** ```https://github.com/xriss/toshiba-swanky```  
 - Copy the following to avoid typos - *the 2nd curl parameter is a capital O, not a zero*
     - Click the touchpad with two fingers to open the right-click menu
