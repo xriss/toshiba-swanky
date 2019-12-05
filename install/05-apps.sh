@@ -27,6 +27,6 @@ sudo snap install audacity
 sudo DEBIAN_FRONTEND=noninteractive apt -y install lmms
 sudo DEBIAN_FRONTEND=noninteractive apt -y install fluidsynth
 sudo DEBIAN_FRONTEND=noninteractive apt -y install vmpk
-sudo DEBIAN_FRONTEND=noninteractive apt -y install amsyth
+sudo DEBIAN_FRONTEND=noninteractive apt -y install amsynth
 sudo DEBIAN_FRONTEND=noninteractive apt -y install aconnectgui
 

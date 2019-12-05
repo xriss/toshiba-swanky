@@ -1,16 +1,22 @@
 
-firefox -CreateProfile $USER
+# I do not think this works at all, fire fox goes out of the way to break it
+#exit
+
+
+# fire fox must run, it must, it must, it must...
+firefox -headless &
+sleep 5
+killall firefox
+sleep 5
+# otherwise we can not tweak settings
 
 function getmozpath {(
-cd ~/.mozilla/firefox/
-if [[ $(grep '\[Profile[^0]\]' profiles.ini) ]]
-then PROFPATH=~/.mozilla/firefox/$(grep -E '^\[Profile|^Path|^Default' profiles.ini | grep -1 '^Default=1' | grep '^Path' | cut -c6-)
-else PROFPATH=~/.mozilla/firefox/$(grep 'Path=' profiles.ini | sed 's/^Path=//')
-fi
+PROFPATH=~/.mozilla/firefox/$(grep 'Default='  ~/.mozilla/firefox/profiles.ini | head -1 | sed 's/^Default=//')
 echo $PROFPATH
 )}
 mozpath=$(getmozpath)
 
+echo "Using firefox at ${mozpath}"
 
 # tell firefox to stop asking for and saving passwords
 # set the homepage
