@@ -3,7 +3,7 @@
 Notes for getting linux happy on a TOSHIBA CB30-B-13
 
 
-trying manjaro and it seems mostly happy just
+trying manjaro and it seems mostly happy just need soundcard firmware
 
 	#sound fix
 	sudo pacman -S sof-firmware
