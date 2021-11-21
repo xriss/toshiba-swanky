@@ -2,6 +2,19 @@
 
 Notes for getting linux happy on a TOSHIBA CB30-B-13
 
+
+trying manjaro and it seems mostly happy just
+
+# sound fix
+sudo pacman -S sof-firmware
+
+
+
+
+
+
+
+
 **chromeos is on usb stick labelled cos**
 
 install developer mode and then RM_LEGACY so we can boot from USB
