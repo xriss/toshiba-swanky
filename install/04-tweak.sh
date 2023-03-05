@@ -17,7 +17,7 @@ sudo DEBIAN_FRONTEND=noninteractive apt -y autoremove
 
 # disable auto update
 
-cat <<EOT | sudo tee -a /etc/apt/apt.conf.d/20auto-upgrades
+cat <<EOT | sudo tee /etc/apt/apt.conf.d/20auto-upgrades
 APT::Periodic::Update-Package-Lists "0";
 APT::Periodic::Download-Upgradeable-Packages "0";
 APT::Periodic::AutocleanInterval "0";
