@@ -6,16 +6,15 @@
 #dev tools
 sudo DEBIAN_FRONTEND=noninteractive apt -y install geany geany-plugins
 sudo DEBIAN_FRONTEND=noninteractive apt -y install nodejs npm
-#sudo DEBIAN_FRONTEND=noninteractive apt -y install wine
 sudo DEBIAN_FRONTEND=noninteractive apt -y install gparted
 sudo DEBIAN_FRONTEND=noninteractive apt -y install wavemon
+#sudo DEBIAN_FRONTEND=noninteractive apt -y install wine
 
 
 #art tools
-#sudo DEBIAN_FRONTEND=noninteractive apt -y purge gimp
-#sudo snap install gimp
-#sudo snap install inkscape
-#sudo snap install blender --classic
+sudo DEBIAN_FRONTEND=noninteractive apt -y install gimp
+sudo DEBIAN_FRONTEND=noninteractive apt -y install inkscape
+#sudo DEBIAN_FRONTEND=noninteractive apt -y install blender
 
 
 #wetgenes ( my code )
@@ -23,7 +22,7 @@ sudo DEBIAN_FRONTEND=noninteractive apt -y install wavemon
 
 
 #sound tools
-#sudo snap install audacity
+sudo DEBIAN_FRONTEND=noninteractive apt -y install audacity
 sudo DEBIAN_FRONTEND=noninteractive apt -y install lmms
 #sudo DEBIAN_FRONTEND=noninteractive apt -y install fluidsynth
 #sudo DEBIAN_FRONTEND=noninteractive apt -y install vmpk
