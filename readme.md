@@ -4,7 +4,7 @@
 Make sure you already have a bootable Xubuntu 19.04 (Disco Dingo) usb stick
 
 - Go to https://xubuntu.org/download  
-- Scroll down to **Latest stable release: 19.04, Disco Dingo**
+- Scroll down to **Latest stable release: 19.04, Disco Dingo** ( last tested with https://cdimage.ubuntu.com/xubuntu/daily-live/current/lunar-minimal-amd64.iso )
 - Click on **64-bit systems** to download the torrent  
 - Double-click the torrent file to download the Xubuntu ISO
 - Follow https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-ubuntu#0

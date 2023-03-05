@@ -15,6 +15,15 @@ xfconf-query -c xfwm4 -p /general/use_compositing --create -t bool -s false
 sudo DEBIAN_FRONTEND=noninteractive apt -y purge apport
 sudo DEBIAN_FRONTEND=noninteractive apt -y autoremove
 
+# disable auto update
+
+cat <<EOT | sudo tee -a /etc/apt/apt.conf.d/20auto-upgrades
+APT::Periodic::Update-Package-Lists "0";
+APT::Periodic::Download-Upgradeable-Packages "0";
+APT::Periodic::AutocleanInterval "0";
+APT::Periodic::Unattended-Upgrade "0";
+EOT
+
 
 # auto mount sdcard in home on boot with sd card plugged in
 # but do not fail if no sdcard exists
