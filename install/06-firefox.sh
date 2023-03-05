@@ -11,7 +11,7 @@ sleep 5
 # otherwise we can not tweak settings
 
 function getmozpath {(
-PROFPATH=~/.mozilla/firefox/$(grep 'Default='  ~/.mozilla/firefox/profiles.ini | head -1 | sed 's/^Default=//')
+PROFPATH=~/snap/firefox/common/.mozilla/firefox/$(grep 'Path='  ~/snap/firefox/common/.mozilla/firefox/profiles.ini | head -1 | sed 's/^Path=//')
 echo $PROFPATH
 )}
 mozpath=$(getmozpath)
