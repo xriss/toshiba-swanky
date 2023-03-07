@@ -10,8 +10,10 @@ sudo DEBIAN_FRONTEND=noninteractive apt -y install firefox
 
 
 # dev tools
-sudo DEBIAN_FRONTEND=noninteractive apt -y install geany geany-plugins
-sudo DEBIAN_FRONTEND=noninteractive apt -y install nodejs npm
+sudo DEBIAN_FRONTEND=noninteractive apt -y install geany
+sudo DEBIAN_FRONTEND=noninteractive apt -y install geany-plugins
+sudo DEBIAN_FRONTEND=noninteractive apt -y install nodejs
+sudo DEBIAN_FRONTEND=noninteractive apt -y install npm
 sudo DEBIAN_FRONTEND=noninteractive apt -y install gparted
 sudo DEBIAN_FRONTEND=noninteractive apt -y install wavemon
 
