@@ -3,6 +3,7 @@
 
 sudo DEBIAN_FRONTEND=noninteractive apt -y update
 sudo DEBIAN_FRONTEND=noninteractive apt -y upgrade
+sudo DEBIAN_FRONTEND=noninteractive apt -y --fix-broken install
 sudo DEBIAN_FRONTEND=noninteractive apt -y autoremove
 
 sudo DEBIAN_FRONTEND=noninteractive apt -y install exfat-fuse exfat-utils
